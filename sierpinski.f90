@@ -1,11 +1,16 @@
-!     Sierpinski triangle is an example of a fractal.  There are several
-!     algorithms to construct it, but the "chaos game" is rather neat.  You will
-!     find a description on Wikipedia:
+!     Problem is taken from a course on FORTRAN.
+!     KULeuvenX: FORTRANx-Fortran-For-Scientific-Programming
+!     
+!     Problem: Sierpinski triangle is an example of a fractal. There are several
+!     algorithms to construct it, but the "chaos game" is rather neat.  Look at
+!     the description on Wikipedia:
 !     https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle#Chaos_game
 !     Implement an application that writes the positions of the points to
 !     standard output.  Make a plot using your favorite visualization
 !     application.
 !
+!     A Sierpinski triange can be understood as a generalization of a binary tree.
+!     https://en.wikipedia.org/wiki/M-ary_tree
 !     Compile the program using:
 !     gfortran -c mod_sierpinski.f90 -I/usr/lib64/gfortran/modules
 !     gfortran -c sierpinski.f90
